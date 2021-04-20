@@ -1,0 +1,12 @@
+host : $ sudo tcpdump host x.x.x.x
+
+Ethernet cart : $ sudo tcpdump -i eth0
+
+destination host :$ sudo tcpdump dst x.x.x.x
+
+protocol : $ sudo tcpdump icmp
+
+tcpdump -i enp0s8 -c100 -nn -w output_file
+
+$ tcpdump -r output_file
+
